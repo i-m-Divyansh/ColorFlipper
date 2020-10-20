@@ -1,26 +1,32 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react'
+import './index.css'
 
-function App() {
+
+const ColorFlipperApp = () => {
+  // Colors Array 
+  const colors = ["Red", "Green", "#3495eb", "#eb34e2"];
+
+  // Hook
+  const [Color, setColor] = useState("#f1f5f8");
+
+  //ColorChanger Function
+  const colorChanger = () => {
+    var number = Math.floor(Math.random() * colors.length);
+    setColor(colors[number]);
+  };
+  //Return Function
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <div style={{ backgroundColor: Color }} className="main text-center">
+        <div className="shadow mydiv">
+          <h1>Background Color : <span className="text-primary">{Color}</span> </h1>
+        </div>
+
+        {/* Button */}
+        <button onClick={colorChanger} className="mybtn p-3 mt-4">Changer Color</button>
+      </div>
+    </>
+  )
 }
 
-export default App;
+export default ColorFlipperApp;
