@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/colorflipper/static/css/main.1b2256c5.chunk.css",
+    "main.js": "/colorflipper/static/js/main.69bb17b0.chunk.js",
+    "main.js.map": "/colorflipper/static/js/main.69bb17b0.chunk.js.map",
+    "runtime-main.js": "/colorflipper/static/js/runtime-main.a0f89655.js",
+    "runtime-main.js.map": "/colorflipper/static/js/runtime-main.a0f89655.js.map",
+    "static/js/2.b00b0982.chunk.js": "/colorflipper/static/js/2.b00b0982.chunk.js",
+    "static/js/2.b00b0982.chunk.js.map": "/colorflipper/static/js/2.b00b0982.chunk.js.map",
+    "index.html": "/colorflipper/index.html",
+    "precache-manifest.1c2ceadd2f856f1edc362af7cf8d94aa.js": "/colorflipper/precache-manifest.1c2ceadd2f856f1edc362af7cf8d94aa.js",
+    "service-worker.js": "/colorflipper/service-worker.js",
+    "static/css/main.1b2256c5.chunk.css.map": "/colorflipper/static/css/main.1b2256c5.chunk.css.map",
+    "static/js/2.b00b0982.chunk.js.LICENSE.txt": "/colorflipper/static/js/2.b00b0982.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a0f89655.js",
+    "static/js/2.b00b0982.chunk.js",
+    "static/css/main.1b2256c5.chunk.css",
+    "static/js/main.69bb17b0.chunk.js"
+  ]
+}
